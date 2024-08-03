@@ -1,5 +1,5 @@
-import { FontProvider } from "react";
+import { FontProvider } from "./Font";
 
-export function AppProvider ({Children}){
-    return <FontProvider> {Children} </FontProvider>
+export function AppProvider ({}){
+    return <FontProvider>{children}</FontProvider>;
 }
